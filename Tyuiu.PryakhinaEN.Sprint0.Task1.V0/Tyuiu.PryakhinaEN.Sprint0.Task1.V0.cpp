@@ -2,10 +2,20 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    setlocale(LC_ALL, "Russian");
+    cout << "Hello World!\n";
+    cout << "Введите ФИО : ";
+    string a;
+    cin >> a;
+    int v;
+    cin >> v;
+    cout << "Возраст = " << v;
+    return 0;
+   
+   
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
